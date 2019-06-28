@@ -8,4 +8,4 @@ env:
   FLASK_APP: app.py
 launch_cmds:
   - . ./env/bin/activate
-  - flask run >> ~/app.log 2>&1
+  - flask run --host=0.0.0.0 >> ~/app.log 2>&1
